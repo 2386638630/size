@@ -1,0 +1,275 @@
+div,ul,li,p,ol,h1,h2,h3,h4,h5,h6{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		header{
+			width: 100%;
+			height: 50px;
+			background-color: grey;
+		}
+		.left img{
+			float: left;
+			margin: 3px;
+			border-radius: 50%;
+			width:40px;
+			height: 40px;
+		}
+		.left h2{
+			float: left;
+			color: white;
+			margin-top: 6px;
+		}
+		.right li{
+			float: right;
+			margin-top: 0 10px;
+			padding: 0 10px;
+			line-height: 47px;
+		}
+		.right li a{
+			color: white;
+		}
+		.right li:hover{
+	background-color: pink;
+	border-bottom: 3px solid red;
+		}
+		section{
+			background-image: url(banner.jpg);
+			width: 100%;
+			height: 1000px;
+			background-size: 100%;
+			background-repeat: no-repeat;
+			float: left;
+		}
+		section h1{
+			width: 150px;
+			font-size: 50px;
+			text-align: center;
+			margin: 50px auto;
+			border-top: 2px solid black;
+			border-bottom: 2px solid black;
+		}
+		section p{
+			font-size: 20px;
+			padding-top: 10px;
+			width: 300px;
+			margin: 50px auto;
+		}
+		section input{
+			background-color: red;
+			width: 150px;
+			height: 50px;
+			font-size: 30px;
+			color: white;
+			margin: 100px auto;
+			display: block;
+			outline: none;
+			border: 1px solid transparent;
+		}
+		section h2{
+			font-size: 30px;
+			color: black;
+			text-align: center;
+			padding-top: 100px;
+		}
+		#d1{
+			width: 100%;
+			height: 600px;
+			background-color: #0DB27F;
+			clear:both;
+		}
+		#d1 h2{
+			font-size: 40px;
+			padding-top: 50px;
+			text-align: center;
+		}
+		#d1 h3{
+			font-size: 30px;
+			text-align: center;
+			border-bottom: 2px solid grey;
+			width: 400px;
+			padding-bottom: 20px;
+			margin: 0 auto;
+
+		}
+		#d1 p{
+			width: 300px;
+			text-align: center;
+			margin: 0 auto;
+		}
+		#d1 ul{
+			border: 1px solid black;
+			width: 600px;
+			height: 200px;
+			margin: 60px auto;
+		}
+		#d1 li{
+			border-radius: 50%;
+			border: 1px solid black;
+			width: 150px;
+			height: 150px;
+			display: inline-block;
+			margin: 30px 20px;
+
+		}
+		#d1 li{
+			border-radius: 50%;
+			border: 1px solid black;
+			width: 150px;
+			height: 150px;
+			display: inline-block;
+			margin: 30px 20px;
+
+		}
+		#d1 li{
+			border-radius: 50%;
+			border: 1px solid black;
+			width: 150px;
+			height: 150px;
+			display: inline-block;
+			margin: 30px 20px;
+		}
+		#d2{
+			width: 100%;
+			height: 400px;
+		}
+		#d3{
+			width: 40%;
+			height: 400px;
+			float: left;
+
+		}
+		#d3 img{
+			width: 100%;
+			height: 400px;
+		}
+		#a1{
+			width: 60%;
+			height: 400px;
+			background-color: #262A35;
+			float: left;
+			text-align: center;
+
+		}
+		#a1 h2{
+			font-size: 40px;
+			padding-top: 50px;
+			text-align: center;
+			color: white;
+		}
+		#a1 h3{
+			font-size: 40px;
+			text-align: center;
+			width: 400px;
+			padding-bottom: 40px;
+			margin: 0 auto;
+			color: white;
+		}
+		#a1 p{
+			width: 700px;
+			text-align: center;
+			margin: 0 auto;
+			color: white;
+		}
+		#a2{
+			overflow: hidden;
+			width: 100%;
+			height: 400px;
+			background-color: #534E93;
+			color: white;
+			text-align: center;
+		}
+		#a2 h2{
+			font-size: 40px;
+			color: white;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		#a2 p{
+			font-size: 20px;
+			text-align: center;
+			color: white;
+		}
+		#a2 ul{
+			overflow: hidden;
+			margin: 20px auto;
+			text-align: center;
+			width: 60%;
+		}
+		#a2 ul li p{
+			width: 400px;
+			text-align: center;
+			margin: 0 auto;
+			font-size: 20px;
+		}
+		#a2 li{
+			width: 50%;
+			float: left;
+		}
+		#z1{
+			width: 100%;
+			height: 800px;
+			background-image: url(banner.jpg);
+			background-size: 100% 100%;
+			text-align: center;
+			color: white;
+		}
+		#z2{
+			width: 50%;
+			height:500px;
+			overflow: hidden;
+			float: left;
+		}
+		#z2 h3{
+			width:200px;
+			font-size: 30px;
+			margin: 110px auto;
+			color: black;
+		}
+		#z2 p{
+			color: black;
+		}
+		#z3{
+			width: 50%;
+			text-align: center;
+			float: right;
+		}
+		#z3 input{
+			font-size: 30px;
+	        border: 0;
+			color: white;
+			margin: 100px auto;
+		}
+		#o{
+			display: block;
+			margin: 30px auto;
+			text-align: center;
+			background-color: red;
+		}
+		#l{
+			display: block;
+			margin: 10px auto;
+			text-align: center;
+			background-color: grey;
+		}
+		#h1{
+			width: 100%;
+			height: 300px;
+			clear: both;
+		}
+		#h1 ul{
+			width: 70%;
+			height: 300px;
+			margin: 100px auto;
+		}
+		#h1 ul li{
+			width: 100px;
+			height: 100px;
+			display: inline-block;
+			margin: 70px 80px;
+			background-color: #333;
+		}
+
+
+
+
